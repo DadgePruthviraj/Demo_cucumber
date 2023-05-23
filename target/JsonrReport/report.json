@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3997300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the login page",
+            "match": {
+              "location": "step_files.LoginStepFile.Open_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter username and password",
+            "match": {
+              "location": "step_files.LoginStepFile.Enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Login button",
+            "match": {
+              "location": "step_files.LoginStepFile.click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-23T05:22:16.585Z",
+        "line": 9,
+        "name": "verifying Valid Criditional",
+        "description": "",
+        "id": "verifying-login-functionality;verifying-valid-criditional",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open homepage",
+            "match": {
+              "location": "step_files.LoginStepFile.Open_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "verifying login functionality",
+    "description": "",
+    "id": "verifying-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/features/fb_login.feature",
+    "tags": []
+  }
+]
